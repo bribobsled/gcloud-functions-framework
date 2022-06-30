@@ -1,0 +1,23 @@
+{
+  "name": "gcloud-functions",
+  "version": "1.0.0",
+  "description": "google cloud functions framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "functions-framework --target=helloWorld"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bribobsled/gcloud-functions-framework.git"
+  },
+  "author": "Briana King",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bribobsled/gcloud-functions-framework/issues"
+  },
+  "homepage": "https://github.com/bribobsled/gcloud-functions-framework#readme",
+  "dependencies": {
+    "@google-cloud/functions-framework": "^3.1.2"
+  }
+}
